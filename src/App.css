@@ -1,4 +1,4 @@
-.app-container {
+/* .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,4 +56,37 @@
 
 .form-button:hover {
   background-color: #0056b3;
+} */
+
+
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #b0b1b2;
+  border-radius: 4px;
+  background-color: rgba(114, 114, 250, 0.466);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #585454;
+  color: rgba(234, 52, 36, 0.797);
+}
+
+li:last-child {
+  border-bottom: none;
 }
